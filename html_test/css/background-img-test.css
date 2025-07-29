@@ -1,0 +1,9 @@
+.container{
+  background-color: aqua;
+  width:500px;
+  height: 500px;
+  background-image: url("../imges/rose.PNG");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
