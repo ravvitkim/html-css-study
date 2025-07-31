@@ -1,0 +1,57 @@
+
+.container{
+  width:800px;
+  
+}
+
+
+
+
+
+.name{
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+span{
+  font-size: 13px;
+  color: gray;
+}
+
+
+
+
+.title{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.blog_name{
+  height: 100%;
+  margin: 0 0 10px 0;
+  
+}
+
+
+.profile{
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.son{
+  float: right;
+  margin: 20px 0 0 5px ;
+  
+}
+
+
+.content{
+  font-weight: 300;
+  margin: 15px 0 10px 0;
+}
+
+.footer{
+  height: 20%;
+  color: gray;
+}

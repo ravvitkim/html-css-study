@@ -1,0 +1,68 @@
+body{
+  display: flex;
+}
+
+
+.container{
+  width:800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.blog_name{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  
+}
+
+
+.name{
+  flex-direction: column;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+span{
+  font-size: 13px;
+  color: gray;
+}
+
+
+
+
+.title{
+  display: inline-block;
+  margin:10px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+
+.profile{
+ 
+  margin: 0 20px 0 0;
+}
+
+.son{
+  margin: 20px 0 0 0 ;
+  
+}
+
+
+.content{
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  height: 20%;
+  color: gray;
+  margin: 20px 0 0 0;
+}

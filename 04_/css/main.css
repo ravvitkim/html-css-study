@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/shoes_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px; 
+  text-align: center;
+  position: relative;
+}
+
+.main-title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 100px 0 0 0;
+}
+
+.main-content{
+  color : white;
+  margin: 0 20px;
+}
+
+.main-button{
+  width: 120px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border : none;
+  position: absolute;
+  left : 0;
+  right: 0;
+  width: 150px;
+  margin: auto;
+  /* margin: auto; */
+  /* 부모 내용 추가 시에도 고정위치  */
+  bottom: 150px;
+
+  /* 부모의 우측 하단 */
+  /* bottom: 20px; */
+  /* right: 20px; */
+
+}
+.main-button:hover {
+  background-color: rgb(247, 214, 214);
+  cursor: pointer;
+}
+.text-deco::first-letter {
+  color: red;
+  font-size: 30px;
+}
+.text-deco::first-line {
+  color: rgb(248, 139, 49);
+}
+
+
+.explain-box{
+  position: relative;
+  width: 400px;
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  top: -50px;
+}
