@@ -30,18 +30,18 @@ select{
   width: 300px;
   height: 25px;
 }
-.bottons{
+.buttons{
   width: 400px;
   margin: 20px auto;
   text-align: center;
 }
-.bottons input{
+.buttons input{
   width: 150px;
   height: 30px;
   font-size: large;
 }
 
-.bottons input:hover{
+.buttons input:hover{
   background-color: pink;
   color: aliceblue;
 }
