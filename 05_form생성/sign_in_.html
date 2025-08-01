@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/sign_in.css">
+  <script src="./js/check_sign.js"></script>
   <title>Document</title>
 </head>
 
 <body>
   <div class="container">
     <h1>회원 가입을 환영합니다.</h1>
-    <form>
+    <form onsubmit="check_sign(event)">
       <fieldset>
         <legend>사용자 정보</legend>
         <ul>
@@ -41,8 +42,8 @@
             </select>
           </li>
           <li>
-            <label for="memo" name="memo">메모</label>
-            <textarea id="memo" placeholder="남길 말씀을 적어주세요" cols="40" rows="4"></textarea>
+            <label for="memo" >메모</label>
+            <textarea id="memo" name="memo" placeholder="남길 말씀을 적어주세요" cols="40" rows="4"></textarea>
           </li>
         </ul>
       </fieldset>
@@ -68,5 +69,6 @@
       </div>
     </form>
   </div>
+  
 </body>
 </html>
