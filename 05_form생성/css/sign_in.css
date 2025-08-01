@@ -1,0 +1,47 @@
+.container{
+  width: 600px;
+  margin: 10px auto;
+}
+fieldset{
+  margin: 0 0 20px 0;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+/* 모든 li태그를 갖는 ul태그 */
+ul li{
+ display: flex;
+ margin: 10px;
+ align-items: center;
+}
+
+li label {
+ 
+  width: 120px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select{
+  width: 300px;
+  height: 25px;
+}
+.bottons{
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.bottons input{
+  width: 150px;
+  height: 30px;
+  font-size: large;
+}
+
+.bottons input:hover{
+  background-color: pink;
+  color: aliceblue;
+}

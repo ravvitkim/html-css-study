@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 500px;
+  }
+  th,
+  td {
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th{
+    background-color: #f8c4c4;
+    color: rgb(136, 55, 68);
+  }
+  td:first-child{
+    width: 30%;
+  }
+  td:nth-child(2){
+    width: 20%;
+  }
+  td:last-child{
+    width: 50%;
+  }
+</style>
+
+<body>
+  <!-- 어떻게 보낼지? vscode는 get방식만 가능 -->
+  <!-- 테이블 생성 -->
+  <table>
+    <caption>걸그룹 정보</caption>
+    <tr>
+      <th width="200">그룹명</th>
+      <th>이름</th>
+      <th colspan="2">나이/주소</th>
+      
+    </tr>
+    <tr>
+      <td rowspan="3">아이브</td>
+      <td>장원영</td>
+      <td>21</td>
+      <td>서울</td>
+    </tr>
+    <tr>
+      
+      <td>안유진</td>
+      <td>22</td>
+      <td>서울</td>
+    </tr>
+    <tr>
+      
+      <td>이서</td>
+      <td>20</td>
+      <td>대구</td>
+    </tr>
+  </table>
+  
+
+  <form action="post"></form>
+</body>
+
+</html>
