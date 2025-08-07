@@ -72,3 +72,78 @@ div{
   margin: auto;
   top: -50px;
 }
+
+div, input, textarea{
+  box-sizing: border-box;
+}
+.form-background{
+  background-color: black;
+  padding: 30px;
+}
+
+.form-white{
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+.form-input{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.w-100{
+  width: 100%;
+  padding: 10px;
+}
+.w-50{
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.yellow-button{
+  padding: 10px;
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: snow;
+  border: 1px solid #ddd;
+}
+
+.nav-container{
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+}
+.nav-item{
+  margin-right: 10px;
+}
+
+/* 미디어쿼리는 보통 밑에 입력함 */
+
+/* 현재 브라우저의 폭이 1200px 이하가 될때 적용할 css */
+@media screen and (max-width : 1200px) {
+  .main-title{
+    font-size: 30px;
+
+  }
+}
+
+/* 폭이 768px 이하일 때  */
+@media screen and (max-width : 768px) {
+  .main-title{
+    font-size: 20px;
+
+  }
+}
+/* 폭이 576px 이하일 때  */
+@media screen and (max-width : 576px) {
+  .main-title{
+    font-size: 10px;
+
+  }
+}
+
