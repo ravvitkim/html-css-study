@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/product.css">
+  <script src="./js/product.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form onsubmit="check_product(event)">
+      <fieldset>
+        <legend>상품선택</legend>
+        <h4 class="jumunChoice">주문할 상품을 선택해 주세요.</h4>
+        <ul>
+          
+          <li>
+            <input type="checkbox" id="present3kg" name="present3kg">
+            <label for="present3kg">선물용 3kg</label>
+            <input type="number" id="sales1" name="sales1" max="5" min="0">
+            <label for="present3kg">개 (최대5개)</label>
+            
+          </li>
+          <li>
+            <input type="checkbox" id="present5kg" name="present5kg">
+            <label for="present3kg">선물용 5kg</label>
+            <input type="number" id="sales2" name="sales2" max="3">
+            <label for="present3kg">개 (최대3개)</label>
+    
+          </li>
+          <li>
+            <input type="checkbox" id="home3kg" name="home3kg">
+            <label for="home3kg">가정용 3kg</label>
+            <input type="number" id="sales3" name="sales3" max="5">
+            <label for="home5kg">개 (최대5개)</label>
+          
+          </li>
+          <li>
+            <input type="checkbox" id="home5kg" name="home5kg">
+            <label for="home5kg">가정용 5kg</label>
+            <input type="number" id="sales4" name="sales4" max="3">
+            <label for="home5kg">개 (최대3개)</label>
+           
+          </li>
+          <h4 class="pojangchoice">포장 선택</h4>
+          <li>
+            <input type="radio" name="sealing" id="sealing_y" value="yes" >
+            <label for="sealing_y">선물 포장</label>
+            <input type="radio"  name="sealing" id="sealing_n" value="no" checked>
+            <label for="sealing_n">선물 포장 안 함</label>
+            
+          </li>
+
+        </ul>
+        
+      </fieldset>
+      <fieldset>
+        <legend>배송 정보</legend>
+        <ul>
+          <li>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required autofocus >
+          </li>
+          <li>
+            <label for="address">배송주소</label>
+            <input type="address" id="address" name="address"required autofocus>
+          </li>
+          <li>
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email">
+          </li>
+          <li>
+            <label for="phoneNumber">연락처</label>
+            <input type="phoneNumber" id="phoneNumber" name="phoneNumber" placeholder="'-'없이 010부터 입력하세요.">
+          </li>
+          <li>
+            <label for="deliveryDate">배송 지정</label>
+            <input type="date" name="deliveryDate" id="deliveryDate">
+          </li>
+          
+          
+          <li>
+            <label for="memo" >메모</label>
+            <textarea id="memo" name="memo" cols="40" rows="4"></textarea>
+          </li>
+        </ul>
+      </fieldset>
+      <div class="buttons">
+        <input type="submit" id="order" value="주문하기">
+        <input type="reset" value="취소하기">
+      </div>
+      
+    </form>
+  </div>
+</body>
+</html>

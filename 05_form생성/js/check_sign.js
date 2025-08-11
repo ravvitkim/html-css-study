@@ -17,6 +17,11 @@ function check_sign(event) {
   let metro = document.querySelector("#metro");
   let walking = document.querySelector("#walking");
 
+
+
+  
+
+
   //버스 체크
   if (bus.checked) {
     bus.value = "ok"

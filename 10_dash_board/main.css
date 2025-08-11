@@ -1,0 +1,27 @@
+.content{
+  margin: 0 0 0 50px;
+}
+
+.sidebar{
+  transition: all 0.5s;
+  width: 150px;
+  height: 100vh;
+  background-color: #484bb3;
+  color: white;
+  position: fixed;
+  z-index: 5;
+  /* 시작화면 */
+  transform: translateX(-100px);
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+
+.sidebar div{
+  margin: 12px 0 0 15px;
+}
+.sidebar:hover{
+  transform: translate(0px);
+}

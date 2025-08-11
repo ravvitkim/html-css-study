@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/flex-test.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- flex-glow : 창의 크기가 늘어날때 자동으로 늘어날 비율을 지정 -->
+  <h3>문제 1</h3>
+  <p>item 너비는 400px, item2 너비는 400px일때 
+    item1과 item2의 너비가 1:2 만큼 상대적으로 수축하도록 지정</p>
+  <div class="container">
+    <div class="item" style="flex-basis: 400px; flex-shrink: 1;">1</div>
+    <div class="item" style="flex-basis: 400px; flex-shrink: 2;" >2</div>
+   
+  </div>
+  <h3>문제 2</h3>
+  <p>item 너비는 400px, item2 너비는 400px일때 
+    item1과 item2의 너비가 1:2 만큼 상대적으로 늘어나도록 지정</p>
+  <!-- basis는 창 크기가 줄면 자기 사이즈를 희생 -->
+  <div class="container">
+    <div class="item" style="flex-basis: 400px; flex-grow: 1; ">1</div>
+    <div class="item" style="flex-basis: 400px; flex-grow: 2;">2</div>
+  </div>
+
+
+</body>
+</html>

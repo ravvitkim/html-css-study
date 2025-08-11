@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+  }
+  footer{
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+  }
+  .content{
+    display: flex;
+  }
+
+  .content nav{
+    flex-basis: 150px;
+    flex-shrink: 0;
+    border-right: 1px solid gray;
+  }
+  .content aside{
+    flex-basis: 150px;
+    flex-shrink: 1;
+    border-left: 1px solid gray;
+  }
+  main{
+    padding: 10px;
+    column-count: 4;
+    text-align: justify;
+    column-width: 200px;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red;
+  }
+</style>
+<body>
+  <div class="container">
+    <header>
+      <h1>Holy Grail Layout</h1>
+    </header>
+    <section class="content">
+      <nav>
+        <ul>
+          <li>main</li>
+          <li>about</li>
+          <li>help</li>
+        </ul>
+      </nav>
+      <main>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint necessitatibus odit quis laudantium repellendus accusamus modi voluptatem. Quod, aliquid accusamus facilis quia voluptatem delectus veritatis pariatur voluptates fugiat ut excepturi.
+        Quaerat dolores ullam laboriosam soluta nobis. Tempora modi voluptate doloribus a? Commodi, quos repudiandae illum cum, adipisci laboriosam assumenda architecto facere esse, tenetur quasi? Ipsa modi unde fugiat dicta pariatur!
+        Facere recusandae inventore assumenda vel, accusamus reprehenderit magni dolorum rerum tempore, harum fugiat eum quos modi beatae aperiam laboriosam id neque dolore sapiente at ipsam voluptate, iste veniam deserunt! Iste.
+        Delectus pariatur assumenda vitae? Fugiat, ab tempore quaerat, repellendus nobis fugit, eos non ex ullam nostrum mollitia possimus incidunt enim aspernatur dolorum suscipit distinctio alias perferendis sunt sint quam! Soluta!
+        Quidem maiores veritatis asperiores doloribus vero. Aut minima ab quod illum unde deserunt doloribus tempore odio enim perferendis vel eum, id tenetur animi necessitatibus amet, incidunt reprehenderit soluta repudiandae architecto?
+        Nihil beatae ex dolorem blanditiis perspiciatis aut vero praesentium corrupti sunt hic exercitationem obcaecati tempore tempora consequatur vel qui labore id, vitae iure nam odio pariatur rem expedita amet. Alias!
+        Perspiciatis earum inventore ut aliquam, doloribus consequatur molestias esse, voluptatibus minima asperiores odit sit nostrum iure! Magnam doloribus beatae, fugiat voluptatum aspernatur laborum assumenda alias excepturi tempora? Hic, aspernatur necessitatibus!
+        Facere voluptate at illum autem ipsa porro, laborum error vel sit alias suscipit tenetur incidunt. Repellendus vitae repellat quae aliquam neque rem hic. Eligendi eaque est adipisci, vel tempore nihil?
+        Laboriosam sequi quasi architecto asperiores eum cupiditate, ducimus voluptatum expedita quis doloribus deserunt aliquid velit aspernatur, inventore nesciunt harum cum accusamus, quisquam fugiat! Ex quas nihil architecto, eligendi labore quos.
+        Pariatur, consequatur minus deleniti vel, magni beatae quis voluptatibus at unde quia repellat quisquam eos fugit maxime provident accusamus. Assumenda porro voluptates soluta laborum qui ipsum quos ducimus dolores facilis!
+      </main>
+      <aside>
+        AD(광고영역)
+      </aside>
+    </section>
+    <footer>
+      <a href="#">홈페이지</a>
+    </footer>
+  </div>
+</body>
+</html>

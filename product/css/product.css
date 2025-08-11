@@ -1,0 +1,55 @@
+.container{
+  width: 600px ;
+  margin: 10px auto;
+}
+
+fieldset{
+  margin: 0 0 20px 0;
+}
+
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li{
+ display: flex;
+ margin:5px;
+ align-items: center;
+}
+
+li label {
+ 
+  width: 120px;
+  line-height: 10px;
+}
+
+input[type="number"]{
+  width: 30px;
+  height: 15px;
+}
+
+
+#order{
+  background-color: rgb(167, 220, 250);
+}
+
+.buttons{
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+
+.buttons input{
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  border: solid 1px #dbdbdb;
+}
+
+.buttons input:hover{
+  color: aliceblue;
+}
